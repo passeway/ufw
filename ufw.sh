@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # 停止并禁用 firewalld 服务
 if ! systemctl stop firewalld.service >/dev/null 2>&1; then
     echo "Failed to stop firewalld service."
