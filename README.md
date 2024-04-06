@@ -1,5 +1,6 @@
 ## 概述
 这段脚本的作用是关闭和禁用防火墙服务（firewalld），关闭 SELinux，禁用 UFW 防火墙，设置 iptables 规则允许所有传入、转发和输出的流量，并且清除所有的 iptables 规则，最后保存 iptables 规则以防止重启后丢失。
+## 一键脚本
 ```bash
 bash -c "$(curl -sS https://raw.githubusercontent.com/passeway/ufw/main/ufw.sh)"
 ```
