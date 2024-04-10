@@ -8,6 +8,7 @@
 ## 一键脚本
 ```
 wget -q ufw.sh https://raw.githubusercontent.com/passeway/ufw/main/ufw.sh && chmod +x ufw.sh && ./ufw.sh
+```
 
 ```bash
 curl -sS -o ufw.sh https://raw.githubusercontent.com/passeway/ufw/main/ufw.sh && chmod +x ufw.sh && ./ufw.sh
