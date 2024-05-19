@@ -24,4 +24,4 @@ iptables -X >/dev/null 2>&1
 netfilter-persistent save >/dev/null 2>&1
 
 # 提示消息
-echo "所有端口已开放"
+echo "所有 VPS 端口已开放"
