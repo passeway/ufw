@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://raw.githubusercontent.com/passeway/ufw/refs/heads/main/ufw.sh",
+      "permanent": true
+    }
+  ]
+}
